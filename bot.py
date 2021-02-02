@@ -59,7 +59,7 @@ def main():
     updater.start_webhook(listen="0.0.0.0",
                           port=PORT,
                           url_path=TOKEN)
-    updater.bot.set_webhook("https://whispering-eyrie-28787.herokuapp.com/" + TOKEN)
+    updater.bot.set_webhook("https://morning-taiga-79742.herokuapp.com/" + TOKEN)
 
     # Делаем бота убиваемым
     updater.idle()
